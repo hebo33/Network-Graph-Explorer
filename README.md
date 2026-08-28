@@ -1,31 +1,17 @@
-This project models a computer network as a weighted graph and provides functionality for the following queries:
-- Discovering devices in a network
-- Building a graph representation of the network
-- Finding the cheapest path between devices
-- Simulating network topology exploration
+Network Graph Explorer:
+Networks are usually represented as graphs. This Python project simulates a
+computer network, which is represented as a directed weighted graph. The vertices
+represent the devices, and the edges represent the conenctions between the devices.
 
 
-Work in Graph Data Structure：
-- Graph modeling
-- Adjacency list implementation
-- Weighted edge representation
-- Network topology representation
+Real-world problems this project simulates:
+- Reducing complex computer network system into readable graph structure
+- Starting from an arbitrary device, discover an appointed device
+- Finding the cheapest path between the devices using Cheapest First Search method
 
 
-Work in Adjacency ListsL
-- Efficient graph storage
-- Sparse graph representation
-- Neighbor lookup
-
-
-Work in Hash Tables (Dictionaries)
-- Constant-time lookup
-- Efficient data retrieval
-- Key-value data organization
-
-
-Work in Recursive Depth-First Search (DFS)
-- Recursive programming
-- Graph traversal
-- Backtracking
-- State management
+Concepts Covered:
+- Graph data structures
+- Adjacency list representation
+- Recursive graph exploration
+- Cheapest First Search (CFS)
